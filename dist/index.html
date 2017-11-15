@@ -1,133 +1,366 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-	<meta charset="UTF-8">
-	<title>SDK</title>
-	<meta content="width=device-width, initial-scale=0.8, user-scalable=no" name="viewport">
-	<link rel="stylesheet" href="css/compass/reset.css">
-	<link rel="stylesheet" href="css/compass/grid.css">
-	<link rel="stylesheet" href="css/susy.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Play:400,700|Russo+One&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+  <meta charset="UTF-8"/>
+  <title> </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+  <link rel="stylesheet" href="css/res__sass.css"/>
+  <link rel="stylesheet" href="css/sass.css"/>
+  <link rel="stylesheet" href="css/susy.css"/>
 </head>
 <body>
-	<header>
-		<div class="middle">
-			<div class="header_logo">
-				<img src="img/logo.jpg" alt="">
-			</div>
-			
-			<div class="header_right_menu">
-				<p>Войдите в Ваш аккаунт</p>
-				<form class="right_menu_form" action="#">
-				<div class="user">
-					<input type="text" placeholder="Ваше имя">
-				</div>
-				<div class="lock">
-					<input  type="text" placeholder="Ваш пароль">
-				</div>
-					<input type="submit" value="Войти">
-				</form>
-				<a href="#">Зарегистрироваться</a>
-			</div>
-		</div>
-	</header>
-	<nav class="navigator">
-		<div class="middle">
-			<ul class="navigator_list">
-			<li><a href="#">Главная</a></li>
-			<li><a href="#">О компании</a></li>
-			<li><a href="#">Новости</a></li>
-			<li><a href="#">Сотрудничество</a></li>
-			<li><a href="#">Для клиентов</a></li>
-			<li><a href="#">Контакты</a></li>
-		</ul>
-			<div class="navigator_cart">
-			<img src="/img/car.png" alt="">
-		</div>
-		</div>
-	</nav>
-	<main class="content">
-		<section class="search">
-			<div class="middle">
-				<form action="#" class="search_form">
-				<p>Узнайте цену запчасти:</p>
-				<p class="search_form_click"><input type="search" name="q" placeholder="048561"> 
-   			<input type="submit" value="ПОИСК"></p>
-			</form>
-			</div>
-		</section>
-		<section class="article">
-			<div class="middle">
-				<div class="article_box_text">
-				<p><strong>Автозапчасти оптом с доставкой от 3 дней во все страны:</strong></p>
-				<p>Более 500 000 запчастей в наличии от официальных и альтернативных</p>
-				<br><br>
-				<p><span style="color: #dca432; text-decoration: underline;">Зарегестрируйтесь</span> на сайте
-получите индивидуальную скидку на запчасти</p>
-			<p><a href="#" style="background: #ffc723;border-radius: 5px;font-weight: 800;font-size: 3rem;border-bottom: 3px solid #a77a00;padding: 0.5rem 1rem;">Зарегистрироваться</a></p>
-			<br><br>
-			<p>Закажите запчасти из Эмиратов оптом у нас и забудьте о вопросах с доставкой и 
-прохождением таможни:</p>
-				</div>
-			
-				<div class="article_lenta_news">
-					<p>Последние новости:</p>
+ <header class="header">
+ 	<div class="middle">
+ 	<div class="header_logo">
+ 		<img src="img/_logo-header.png" alt="logo">
+ 	</div>
+ 	<img id="navi_open" src="img/iconfindermenu.svg" alt="navi" style="display: none">
+ 	<img id="navi_close" src="img/iconfinderClose.svg" alt="navi" style="display: none">
+ 	<div class="header_menu">
+ 		<ul>
+ 			<li><a href="#">меню</a></li>
+ 			<li><a href="#">Услуги</a></li>
+ 			<li><a href="#">кейтеринга</a></li>
+ 			<li><a href="#">о нас</a></li>
+ 			<li><a href="#">контакты</a></li>
+ 		</ul>
+ 	</div>
+ 	<div class="header_info-block">
+ 		<a href="+78007772211">+8 (000) 777-22-11</a>
+ 		<button type="submit">Заказать</button>
+ 	</div>
+ 	</div>
+ </header>
+ <main>
+ 	<section class="slide">
+ 		<div class="owl-carousel owl-theme" >
+			<div class="item">
+				<img src="img/slide.jpg" alt="slide">
+				<div class="slide_info-block">
 					
-						<ul class="lenta_news">
-							<li>
-								<div>
-								<a href="#">
-									Новые банковские реквизиты.
-								</a>
-								<span>19 сен 2017</span>
-								</div>
-							</li>
-							
-							<li>
-								<div>
-								<a href="#">
-									Новые банковские реквизиты.
-								</a>
-								<span>19 сен 2017</span>
-								</div>
-							</li>
-							
-							<li>
-								<div>
-								<a href="#">
-									Новые банковские реквизиты.
-								</a>
-								<span>19 сен 2017</span>
-								</div>
-							</li>
-						</ul>
 				</div>
 			</div>
-		</section>
-	</main>
-	<footer class="footer">
-		<div class="middle">
-		<ul class="footer_menu">
-			<li>
-				<a href="#">Главная</a>
-			</li>
-			
-			<li>
-				<a href="#">инфо</a>
-			</li>
-			
-			<li>
-				<a href="#">ваши заказы</a>
-			</li>
-			
-			<li>
-				<a href="#">корзина</a>
-			</li>
-		</ul>
-		</div>
-	</footer>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-	<script src="js/index.js"></script>	
+			<div class="item">
+				<img src="img/slide.jpg" alt="slide">
+				<div class="slide_info-block">
+					
+				</div>
+			</div>
+	</div>
+ 	</section>
+ 	
+ 	<section class="our-work">
+ 		<div class="middle">
+ 			<h2>Успешная свадьба - Это Наша работа</h2>
+ 			<div class="our-work_info-box">
+ 				<div class="element">
+ 					<img src="img/_op_1.png" alt="work">
+ 					<div class="el_info_text">
+ 						<p class="h1">Lorem ipsum.</p>
+ 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, placeat?</p>
+ 					</div>
+ 				</div>
+ 				<div class="element">
+ 					<img src="img/_op_2.png" alt="work">
+ 					<div class="el_info_text">
+ 						<p class="h1">Lorem ipsum.</p>
+ 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+ 					</div>
+ 				</div>
+ 				<div class="element">
+ 					<img src="img/_op_3.png" alt="work">
+ 					<div class="el_info_text">
+ 						<p class="h1">Lorem ipsum.</p>
+ 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet assumenda, doloribus.</p>
+ 					</div>
+ 				</div>
+ 				<div class="element">
+ 					<img src="img/_op_4.png" alt="work">
+ 					<div class="el_info_text">
+ 						<p class="h1">Lorem ipsum.</p>
+ 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat sint ipsum doloribus, cupiditate nostrum.</p>
+ 					</div>
+ 				</div>
+ 				
+ 			</div>
+ 			<div class="our-work_button">
+ 				<button class='bron' type="submit">Забронировать дату</button>
+ 			</div>
+ 		</div>
+ 	</section>
+ 	
+ 	<section class="to-see">
+ 		<div class="middle">
+ 			<h2 class="to-see_h2">
+ 				Лучше один раз увидеть
+ 			</h2>
+ 			
+ 			<iframe src="//rutube.ru/play/embed/7241081" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+ 		</div>
+ 	</section>
+ 	
+ 	<section class="extra-possibility">
+ 		<h2>Дополнительные возможности</h2>
+ 		<div class="middle">
+ 			
+ 			<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+ 			<h3>НОМЕРА</h3>
+ 			<div class="extra-possibility_info-box">
+ 				<a href="img/_namber_1.png" data-fancybox data-caption="My caption">
+					<img src="img/_namber_1.png" alt="pictures" />
+				</a>
+				
+				<a href="img/_namber_2.png" data-fancybox data-caption="My caption">
+					<img src="img/_namber_2.png" alt="pictures" />
+				</a>
+				
+				<a href="img/_namber_3.png" data-fancybox data-caption="My caption">
+					<img src="img/_namber_3.png" alt="pictures" />
+				</a>
+				
+				<a href="img/_namber_4.png" data-fancybox data-caption="My caption">
+					<img src="img/_namber_4.png" alt="pictures" />
+				</a>
+				
+ 			</div>
+ 		</div>
+ 	</section>
+ 	
+ 	<section class="restaurant">
+ 		<h2>Ресторан и кухня</h2>
+ 		<div class="middle">
+ 			
+ 			<div class="restaurant_info-box">
+ 				<div class="element">
+ 					<div class="element_stiker">
+ 						Lorem ipsum dolor sit amet, consectetur adipisicing.
+ 					</div>
+ 					<div class="element_block">
+ 						<div><p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when.</p></div>
+ 						<div>
+ 							<img src="img/_resto_1.png" alt="pictures">
+ 						</div>
+ 					</div>
+ 				</div>
+ 				
+ 				<div class="element">
+ 					<div class="element_stiker">
+ 						Lorem ipsum dolor sit amet, consectetur adipisicing.
+ 					</div>
+ 					<div class="element_block">
+ 						<div><p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when.</p></div>
+ 						<div>
+ 							<img src="img/_resto_2.png" alt="pictures">
+ 						</div>
+ 					</div>
+ 				</div>
+ 				
+ 				<div class="element">
+ 					<div class="element_stiker">
+ 						Lorem ipsum dolor sit amet, consectetur adipisicing.
+ 					</div>
+ 					<div class="element_block">
+ 						<div><p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when.</p></div>
+ 						<div>
+ 							<img src="img/_resto_3.png" alt="pictures">
+ 						</div>
+ 					</div>
+ 				</div>
+ 				
+ 			</div>
+ 		</div>
+ 	</section>
+ 	
+ 	<section class="menu-price">
+ 		<button type="submit">посмотреть меню</button>
+ 	</section>
+ 	
+ 	<section class="menu-list">
+ 		
+ 		<div class="middle">
+ 			<h2>меню</h2>
+ 			<div class="menu-list_info-box">
+ 				<div class="element">
+ 					<img src="img/_menu_1.png" alt="pictures">
+ 					<button type="submit">ЗАказать</button>
+ 				</div>
+ 				
+ 				<div class="element">
+ 					<img src="img/_menu_2.png" alt="pictures">
+ 					<button type="submit">ЗАказать</button>
+ 				</div>
+ 				
+ 				<div class="element">
+ 					<img src="img/_menu_3.png" alt="pictures">
+ 					<button type="submit">ЗАказать</button>
+ 				</div>
+ 				
+ 				
+ 				<div class="element">
+ 					<img src="img/_menu_4.png" alt="pictures">
+ 					<button type="submit">ЗАказать</button>
+ 				</div>
+ 				
+ 				<div class="element">
+ 					<img src="img/_menu_5.png" alt="pictures">
+ 					<button type="submit">ЗАказать</button>
+ 				</div>
+ 				
+ 				<div class="element">
+ 					<img src="img/_menu_6.png" alt="pictures">
+ 					<button type="submit">ЗАказать</button>
+ 				</div>
+ 				
+ 				<div class="element">
+ 					<img src="img/_menu_7.png" alt="pictures">
+ 					<button type="submit">ЗАказать</button>
+ 				</div>
+ 				
+ 				<div class="element">
+ 					<img src="img/_menu_8.png" alt="pictures">
+ 					<button type="submit">ЗАказать</button>
+ 				</div>
+ 				
+ 				<div class="element">
+ 					<img src="img/_menu_9.png" alt="pictures">
+ 					<button type="submit">ЗАказать</button>
+ 				</div>
+ 				
+ 				
+ 			</div>
+ 		</div>
+ 	</section>
+ 	
+ 	<section class="portfolio">
+ 		
+ 		<div class="middle">
+ 			<h2><span class="left"><img src="img/curcl.png" alt="pictures"></span><b>портфолио</b><span class="right"><img src="img/curcl.png" alt="pictures"></span></h2>
+ 			<div class="portfolio_info-box masonry">
+ 				<div class="element item">
+ 					<h3>Lorem ipsum dolor.</h3>
+ 					<a href="img/_portfolio_1.png" data-porfolio data-caption="Portfolio">
+						<img src="img/_portfolio_1.png" alt="pictures" />
+					</a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deleniti velit praesentium blanditiis, dolores mollitia corrupti minus voluptas odio necessitatibus.</p>
+ 				</div>
+ 				
+ 				
+ 				
+ 				<div class="element item">
+ 					<h3>Lorem ipsum dolor.</h3>
+ 					<a href="img/_portfolio_2.png" data-porfolio data-caption="Portfolio">
+						<img src="img/_portfolio_2.png" alt="pictures" />
+					</a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deleniti velit praesentium blanditiis, dolores mollitia corrupti minus voluptas odio necessitatibus.</p>
+ 				</div>
+ 				
+ 				<div class="element item">
+ 					<h3>Lorem ipsum dolor.</h3>
+ 					<a href="img/_portfolio_3.png" data-porfolio data-caption="Portfolio">
+						<img src="img/_portfolio_3.png" alt="pictures" />
+					</a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deleniti velit praesentium blanditiis, dolores mollitia corrupti minus voluptas odio necessitatibus.</p>
+ 				</div>
+ 				
+ 				<div class="element item">
+ 					<h3>Lorem ipsum dolor.</h3>
+ 					<a href="img/_portfolio_4.png" data-porfolio data-caption="Portfolio">
+						<img src="img/_portfolio_4.png" alt="pictures" />
+					</a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deleniti velit praesentium blanditiis, dolores mollitia corrupti minus voluptas odio necessitatibus.</p>
+ 				</div>
+ 				
+ 				
+ 				
+ 				
+ 				
+ 			</div>
+ 		</div>
+ 	</section>
+ 	
+ 	<section class="click-popap">
+ 		<button type="submit">Оставить заявку</button>
+ 	</section>
+ 	<h2 class="part-job_h2">Этапы работы (организации)</h2>
+ 	<section class="part-job">
+ 		
+ 		<div class="middle">
+ 			<div class="part-job_info-box">
+ 				<div class="element">
+ 					<img src="img/_tab_1.png" alt="pictures">
+ 					<p>Консультация</p>
+ 				</div>
+ 				
+ 				<div class="element_min">
+ 				&nbsp;
+ 				</div>
+ 				
+ 				<div class="element">
+ 					<img src="img/_tab_2.png" alt="pictures">
+ 					<p>Согласование меню </p>
+ 				</div>
+ 				
+ 				<div class="element_min">
+ 				&nbsp;
+ 				</div>
+ 				
+ 				<div class="element">
+ 					<img src="img/_tab_3.png" alt="pictures">
+ 					<p>Составление договора</p>
+ 				</div>
+ 				
+ 				<div class="element">
+ 					<img src="img/_tab_4.png" alt="pictures">
+ 					<p>Банкет</p>
+ 				</div>
+ 				
+ 				<div class="element_min">
+ 				&nbsp;
+ 				</div>
+ 				
+ 				<div class="element">
+ 					<img src="img/_tab_5.png" alt="pictures">
+ 					<p>Оплата</p>
+ 				</div>
+ 				
+ 			</div>
+ 		</div>
+ 	</section>
+ </main>
+ 
+ <footer>
+ 	<div class="middle">
+ 		
+ 	</div>
+ </footer>
+  <script src="js/libs.min.js"></script>	
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/masonry.pkgd.min.js"></script>
+  <script type="text/javascript">
+		$("[data-fancybox]").fancybox({
+			margin : [44,0,22,0],
+				thumbs : {
+					autoStart : true
+				}
+		});
+		$('.owl-carousel').owlCarousel({
+				loop:true,
+				margin:10,
+				nav:true,
+				responsive:{
+						0:{
+								items:1
+						},
+						600:{
+								items:1
+						},
+						1000:{
+								items:1
+						}
+				}
+		});
+	</script>
+  <script src="js/app.js"></script>
 </body>
 </html>
